@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ColorSample: View {
+    
+//    var color = #colorLiteral
+    
+    var color = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
             .fill(
-//                Color.blue
-                Color(String(stringLiteral: "customecolor"))
+                Color(color)
             )
             .frame(width: 300, height: 200)
     }
