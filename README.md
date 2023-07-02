@@ -4,4 +4,5 @@ Already have content is below
 * Text
 * Shape
 * Color
+* Gradient
 
