@@ -14,6 +14,7 @@
 		0655E9DF2A4DCDBE00783E46 /* ShapesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9DE2A4DCDBE00783E46 /* ShapesSample.swift */; };
 		0655E9E12A4EC80100783E46 /* ColorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9E02A4EC80100783E46 /* ColorSample.swift */; };
 		0655E9E32A518F8600783E46 /* GradientsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9E22A518F8600783E46 /* GradientsSample.swift */; };
+		0655E9E52A51B52E00783E46 /* IconsAndImageSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9E42A51B52E00783E46 /* IconsAndImageSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0655E9DE2A4DCDBE00783E46 /* ShapesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesSample.swift; sourceTree = "<group>"; };
 		0655E9E02A4EC80100783E46 /* ColorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSample.swift; sourceTree = "<group>"; };
 		0655E9E22A518F8600783E46 /* GradientsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsSample.swift; sourceTree = "<group>"; };
+		0655E9E42A51B52E00783E46 /* IconsAndImageSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsAndImageSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				0655E9DE2A4DCDBE00783E46 /* ShapesSample.swift */,
 				0655E9E02A4EC80100783E46 /* ColorSample.swift */,
 				0655E9E22A518F8600783E46 /* GradientsSample.swift */,
+				0655E9E42A51B52E00783E46 /* IconsAndImageSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 				0655E9E32A518F8600783E46 /* GradientsSample.swift in Sources */,
 				0655E9E12A4EC80100783E46 /* ColorSample.swift in Sources */,
 				0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */,
+				0655E9E52A51B52E00783E46 /* IconsAndImageSample.swift in Sources */,
 				0655E9DF2A4DCDBE00783E46 /* ShapesSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
