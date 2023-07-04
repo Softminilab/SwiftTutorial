@@ -6,6 +6,9 @@ Already have content is below
 * Color
 * Gradient
 * Icons & Image
+* Frame
+* Background & overlay
+* Stack(ZStack, VStack, HStack)
 
 
 
