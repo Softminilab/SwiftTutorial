@@ -12,7 +12,21 @@ Already have content is below
 
 
 
-blog site
+--------------
+
+欢迎进群交流
+
+加微信，备注“SwiftUI”
+
+![](wc.jpg)
+
+
+
+----
+
+
+
+Blog site
 
 [medium](https://medium.com/@karepbq)
 
