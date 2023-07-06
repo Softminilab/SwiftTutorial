@@ -17,6 +17,7 @@
 		0655E9E52A51B52E00783E46 /* IconsAndImageSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9E42A51B52E00783E46 /* IconsAndImageSample.swift */; };
 		0656BDCF2A5392700095C93E /* FrameSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDCE2A5392700095C93E /* FrameSample.swift */; };
 		0656BDD12A5398D00095C93E /* BackgroundAndOverlayerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */; };
+		0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDD22A54EAFC0095C93E /* StackSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0655E9E42A51B52E00783E46 /* IconsAndImageSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsAndImageSample.swift; sourceTree = "<group>"; };
 		0656BDCE2A5392700095C93E /* FrameSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSample.swift; sourceTree = "<group>"; };
 		0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayerSample.swift; sourceTree = "<group>"; };
+		0656BDD22A54EAFC0095C93E /* StackSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				0655E9E42A51B52E00783E46 /* IconsAndImageSample.swift */,
 				0656BDCE2A5392700095C93E /* FrameSample.swift */,
 				0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */,
+				0656BDD22A54EAFC0095C93E /* StackSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */,
 				0655E9D32A4C74F800783E46 /* TextSample.swift in Sources */,
 				0655E9E32A518F8600783E46 /* GradientsSample.swift in Sources */,
 				0655E9E12A4EC80100783E46 /* ColorSample.swift in Sources */,
@@ -288,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftTutorial/Preview Content\"";
@@ -299,13 +304,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.softminilab.swiftTutorial.SwiftTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softlab.test.abc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftTutorial/Preview Content\"";
@@ -328,13 +336,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.softminilab.swiftTutorial.SwiftTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softlab.test.abc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

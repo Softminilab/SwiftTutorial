@@ -38,6 +38,39 @@ struct BackgroundAndOverlayerSample: View {
                             .shadow(color: Color.blue, radius: 10, x: 3, y: 3)
                     })
             }
+        
+//        ZStack { // 使用 ZStack 创建视图层次结构
+//            Color.blue // 原始视图
+//                .frame(width: 200, height: 200)
+//
+//            Text("Overlay") // 覆盖层上的文本视图
+//                .foregroundColor(.white)
+//                .font(.title)
+//                .padding()
+//                .background(Color.black)
+//                .opacity(0.7)
+//                .cornerRadius(10)
+//                .overlay(
+//                    Image(systemName: "star.fill") // 覆盖层上的图标视图
+//                        .foregroundColor(.yellow)
+//                        .font(.largeTitle)
+//                        .padding(20)
+//                )
+//        }
+        
+//        Rectangle()
+//            .fill(Color.orange)
+//            .frame(width: 200, height: 200)
+//            .overlay(alignment: .topLeading, content: {
+//                Rectangle()
+//                    .fill(Color.red)
+//                    .frame(width: 100, height: 100)
+//            })
+//            .background(alignment: .topLeading, content: {
+//                Rectangle()
+//                    .fill(Color.blue)
+//                    .frame(width: 300, height: 300)
+//            })
     }
 }
 
