@@ -9,6 +9,8 @@ Already have content is below
 * Frame
 * Background & overlay
 * Stack(ZStack, VStack, HStack)
+* Padding
+* Spacer
 
 
 

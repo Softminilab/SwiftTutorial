@@ -18,6 +18,8 @@
 		0656BDCF2A5392700095C93E /* FrameSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDCE2A5392700095C93E /* FrameSample.swift */; };
 		0656BDD12A5398D00095C93E /* BackgroundAndOverlayerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */; };
 		0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDD22A54EAFC0095C93E /* StackSample.swift */; };
+		06C97F7F2A5707DC00580B63 /* PaddingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C97F7E2A5707DC00580B63 /* PaddingSample.swift */; };
+		06C97F832A57896B00580B63 /* SpacerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C97F822A57896B00580B63 /* SpacerSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		0656BDCE2A5392700095C93E /* FrameSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSample.swift; sourceTree = "<group>"; };
 		0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayerSample.swift; sourceTree = "<group>"; };
 		0656BDD22A54EAFC0095C93E /* StackSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSample.swift; sourceTree = "<group>"; };
+		06C97F7E2A5707DC00580B63 /* PaddingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSample.swift; sourceTree = "<group>"; };
+		06C97F822A57896B00580B63 /* SpacerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				0656BDCE2A5392700095C93E /* FrameSample.swift */,
 				0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */,
 				0656BDD22A54EAFC0095C93E /* StackSample.swift */,
+				06C97F7E2A5707DC00580B63 /* PaddingSample.swift */,
+				06C97F822A57896B00580B63 /* SpacerSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -159,9 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */,
+				06C97F7F2A5707DC00580B63 /* PaddingSample.swift in Sources */,
 				0655E9D32A4C74F800783E46 /* TextSample.swift in Sources */,
 				0655E9E32A518F8600783E46 /* GradientsSample.swift in Sources */,
 				0655E9E12A4EC80100783E46 /* ColorSample.swift in Sources */,
+				06C97F832A57896B00580B63 /* SpacerSample.swift in Sources */,
 				0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */,
 				0655E9E52A51B52E00783E46 /* IconsAndImageSample.swift in Sources */,
 				0656BDCF2A5392700095C93E /* FrameSample.swift in Sources */,
