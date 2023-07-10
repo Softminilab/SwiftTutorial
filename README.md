@@ -19,6 +19,7 @@ Already have content is below
 * Stack(ZStack, VStack, HStack)
 * Padding
 * Spacer
+* Init & Enum
 
 --------------
 
