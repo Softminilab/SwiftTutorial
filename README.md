@@ -21,6 +21,7 @@ Already have content is below
 * Spacer
 * Init & Enum
 * foreach & scrollView
+* LazyGrid
 
 --------------
 

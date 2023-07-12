@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06179C9A2A5CD2B300945EAE /* LazyGridSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179C992A5CD2B300945EAE /* LazyGridSample.swift */; };
 		0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9D02A4C74F800783E46 /* SwiftTutorialApp.swift */; };
 		0655E9D32A4C74F800783E46 /* TextSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9D22A4C74F800783E46 /* TextSample.swift */; };
 		0655E9D52A4C74FA00783E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0655E9D42A4C74FA00783E46 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06179C992A5CD2B300945EAE /* LazyGridSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridSample.swift; sourceTree = "<group>"; };
 		0655E9CD2A4C74F800783E46 /* SwiftTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0655E9D02A4C74F800783E46 /* SwiftTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialApp.swift; sourceTree = "<group>"; };
 		0655E9D22A4C74F800783E46 /* TextSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSample.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				06C97F822A57896B00580B63 /* SpacerSample.swift */,
 				06C97F842A5A5EE500580B63 /* InitAndEnumsSample.swift */,
 				06C97F862A5C422D00580B63 /* ForeachAndScrollView.swift */,
+				06179C992A5CD2B300945EAE /* LazyGridSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */,
+				06179C9A2A5CD2B300945EAE /* LazyGridSample.swift in Sources */,
 				06C97F872A5C422D00580B63 /* ForeachAndScrollView.swift in Sources */,
 				06C97F7F2A5707DC00580B63 /* PaddingSample.swift in Sources */,
 				0655E9D32A4C74F800783E46 /* TextSample.swift in Sources */,
