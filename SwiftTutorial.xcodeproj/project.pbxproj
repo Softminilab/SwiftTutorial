@@ -122,7 +122,6 @@
 				0655E9C92A4C74F800783E46 /* Sources */,
 				0655E9CA2A4C74F800783E46 /* Frameworks */,
 				0655E9CB2A4C74F800783E46 /* Resources */,
-				06179CA12A612EE400945EAE /* dynamic_library_size */,
 			);
 			buildRules = (
 			);
@@ -177,27 +176,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		06179CA12A612EE400945EAE /* dynamic_library_size */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = dynamic_library_size;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# 输出每个动态库的大小到一个文件中\notool -l \"$BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH\" | grep -A 3 -B 1 -m 2 LC_SEGMENT | grep segname | awk '{print $2,$NF}' | awk '{gsub(/(^\")|(\".$)/, \"\", $0); print $0}' > \"$SRCROOT/dynamic_library_sizes.txt\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0655E9C92A4C74F800783E46 /* Sources */ = {
