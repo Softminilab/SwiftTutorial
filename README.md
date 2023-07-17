@@ -30,13 +30,7 @@ Already have content is below
 
 --------------
 
-欢迎进群交流
-
-加微信，备注“SwiftUI”
-
-![](wc.jpg)
-
-
+公众号：RobotPBQ
 
 ----
 
