@@ -13,6 +13,7 @@
 		06179CA02A60082C00945EAE /* StateAndBindingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179C9F2A60082C00945EAE /* StateAndBindingSample.swift */; };
 		06179CC52A61900900945EAE /* AnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179CC42A61900900945EAE /* AnimationSample.swift */; };
 		06179CC72A62E4A500945EAE /* AnimationCurvesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179CC62A62E4A500945EAE /* AnimationCurvesSample.swift */; };
+		06179CC92A6578C400945EAE /* TransitionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179CC82A6578C400945EAE /* TransitionSample.swift */; };
 		0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9D02A4C74F800783E46 /* SwiftTutorialApp.swift */; };
 		0655E9D32A4C74F800783E46 /* TextSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9D22A4C74F800783E46 /* TextSample.swift */; };
 		0655E9D52A4C74FA00783E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0655E9D42A4C74FA00783E46 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		06179C9F2A60082C00945EAE /* StateAndBindingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndBindingSample.swift; sourceTree = "<group>"; };
 		06179CC42A61900900945EAE /* AnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSample.swift; sourceTree = "<group>"; };
 		06179CC62A62E4A500945EAE /* AnimationCurvesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurvesSample.swift; sourceTree = "<group>"; };
+		06179CC82A6578C400945EAE /* TransitionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSample.swift; sourceTree = "<group>"; };
 		0655E9CD2A4C74F800783E46 /* SwiftTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0655E9D02A4C74F800783E46 /* SwiftTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialApp.swift; sourceTree = "<group>"; };
 		0655E9D22A4C74F800783E46 /* TextSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSample.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				06179C9F2A60082C00945EAE /* StateAndBindingSample.swift */,
 				06179CC42A61900900945EAE /* AnimationSample.swift */,
 				06179CC62A62E4A500945EAE /* AnimationCurvesSample.swift */,
+				06179CC82A6578C400945EAE /* TransitionSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -198,6 +201,7 @@
 				06C97F852A5A5EE500580B63 /* InitAndEnumsSample.swift in Sources */,
 				0655E9E12A4EC80100783E46 /* ColorSample.swift in Sources */,
 				06179C9C2A5F7DE400945EAE /* SafeAreaSample.swift in Sources */,
+				06179CC92A6578C400945EAE /* TransitionSample.swift in Sources */,
 				06C97F832A57896B00580B63 /* SpacerSample.swift in Sources */,
 				06179CC52A61900900945EAE /* AnimationSample.swift in Sources */,
 				0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */,
