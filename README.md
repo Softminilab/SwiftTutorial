@@ -27,6 +27,9 @@ Already have content is below
 * StateAndBinding
 * Animation
 * Animation curves
+* Transition
+* Sheet
+* NavigationView & NavigationLink
 
 --------------
 
