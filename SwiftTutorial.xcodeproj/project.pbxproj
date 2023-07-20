@@ -17,6 +17,7 @@
 		06179CCB2A66CAD300945EAE /* SheetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179CCA2A66CAD300945EAE /* SheetSample.swift */; };
 		06179CCD2A66E77100945EAE /* PopoverSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179CCC2A66E77100945EAE /* PopoverSample.swift */; };
 		06179CCF2A6762E600945EAE /* NavigationViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179CCE2A6762E600945EAE /* NavigationViewSample.swift */; };
+		06179CD12A69642200945EAE /* ListSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179CD02A69642200945EAE /* ListSample.swift */; };
 		0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9D02A4C74F800783E46 /* SwiftTutorialApp.swift */; };
 		0655E9D32A4C74F800783E46 /* TextSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655E9D22A4C74F800783E46 /* TextSample.swift */; };
 		0655E9D52A4C74FA00783E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0655E9D42A4C74FA00783E46 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		06179CCA2A66CAD300945EAE /* SheetSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSample.swift; sourceTree = "<group>"; };
 		06179CCC2A66E77100945EAE /* PopoverSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverSample.swift; sourceTree = "<group>"; };
 		06179CCE2A6762E600945EAE /* NavigationViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewSample.swift; sourceTree = "<group>"; };
+		06179CD02A69642200945EAE /* ListSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSample.swift; sourceTree = "<group>"; };
 		0655E9CD2A4C74F800783E46 /* SwiftTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0655E9D02A4C74F800783E46 /* SwiftTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialApp.swift; sourceTree = "<group>"; };
 		0655E9D22A4C74F800783E46 /* TextSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSample.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				06179CCA2A66CAD300945EAE /* SheetSample.swift */,
 				06179CCC2A66E77100945EAE /* PopoverSample.swift */,
 				06179CCE2A6762E600945EAE /* NavigationViewSample.swift */,
+				06179CD02A69642200945EAE /* ListSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */,
+				06179CD12A69642200945EAE /* ListSample.swift in Sources */,
 				06179C9A2A5CD2B300945EAE /* LazyGridSample.swift in Sources */,
 				06C97F872A5C422D00580B63 /* ForeachAndScrollView.swift in Sources */,
 				06C97F7F2A5707DC00580B63 /* PaddingSample.swift in Sources */,

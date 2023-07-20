@@ -12,7 +12,7 @@ struct SwiftTutorialApp: App {
     
     var body: some Scene {
         WindowGroup {
-            PopoverSample()
+            ListSample()
         }
     }
 }

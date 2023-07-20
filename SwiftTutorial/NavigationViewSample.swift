@@ -9,10 +9,6 @@ import SwiftUI
 
 struct NavigationViewSample: View {
     
-    init() {
-        UITableView.appearance().backgroundColor = .green // Uses UIColor
-    }
-    
     var body: some View {
         NavigationView {
             ScrollView {
