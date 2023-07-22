@@ -29,6 +29,9 @@
 		0656BDCF2A5392700095C93E /* FrameSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDCE2A5392700095C93E /* FrameSample.swift */; };
 		0656BDD12A5398D00095C93E /* BackgroundAndOverlayerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */; };
 		0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656BDD22A54EAFC0095C93E /* StackSample.swift */; };
+		06AAB07B2A6A0D9100B2E1D4 /* AlertSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AAB07A2A6A0D9100B2E1D4 /* AlertSample.swift */; };
+		06AAB07D2A6A0DA000B2E1D4 /* AlertSheetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AAB07C2A6A0DA000B2E1D4 /* AlertSheetSample.swift */; };
+		06AAB07F2A6A0DAA00B2E1D4 /* ContextMenuSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AAB07E2A6A0DAA00B2E1D4 /* ContextMenuSample.swift */; };
 		06C97F7F2A5707DC00580B63 /* PaddingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C97F7E2A5707DC00580B63 /* PaddingSample.swift */; };
 		06C97F832A57896B00580B63 /* SpacerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C97F822A57896B00580B63 /* SpacerSample.swift */; };
 		06C97F852A5A5EE500580B63 /* InitAndEnumsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C97F842A5A5EE500580B63 /* InitAndEnumsSample.swift */; };
@@ -59,6 +62,9 @@
 		0656BDCE2A5392700095C93E /* FrameSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSample.swift; sourceTree = "<group>"; };
 		0656BDD02A5398D00095C93E /* BackgroundAndOverlayerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayerSample.swift; sourceTree = "<group>"; };
 		0656BDD22A54EAFC0095C93E /* StackSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSample.swift; sourceTree = "<group>"; };
+		06AAB07A2A6A0D9100B2E1D4 /* AlertSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSample.swift; sourceTree = "<group>"; };
+		06AAB07C2A6A0DA000B2E1D4 /* AlertSheetSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSheetSample.swift; sourceTree = "<group>"; };
+		06AAB07E2A6A0DAA00B2E1D4 /* ContextMenuSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuSample.swift; sourceTree = "<group>"; };
 		06C97F7E2A5707DC00580B63 /* PaddingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSample.swift; sourceTree = "<group>"; };
 		06C97F822A57896B00580B63 /* SpacerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerSample.swift; sourceTree = "<group>"; };
 		06C97F842A5A5EE500580B63 /* InitAndEnumsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAndEnumsSample.swift; sourceTree = "<group>"; };
@@ -119,6 +125,9 @@
 				06179CCC2A66E77100945EAE /* PopoverSample.swift */,
 				06179CCE2A6762E600945EAE /* NavigationViewSample.swift */,
 				06179CD02A69642200945EAE /* ListSample.swift */,
+				06AAB07A2A6A0D9100B2E1D4 /* AlertSample.swift */,
+				06AAB07C2A6A0DA000B2E1D4 /* AlertSheetSample.swift */,
+				06AAB07E2A6A0DAA00B2E1D4 /* ContextMenuSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -203,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AAB07B2A6A0D9100B2E1D4 /* AlertSample.swift in Sources */,
 				0656BDD32A54EAFC0095C93E /* StackSample.swift in Sources */,
 				06179CD12A69642200945EAE /* ListSample.swift in Sources */,
 				06179C9A2A5CD2B300945EAE /* LazyGridSample.swift in Sources */,
@@ -214,10 +224,12 @@
 				06C97F852A5A5EE500580B63 /* InitAndEnumsSample.swift in Sources */,
 				0655E9E12A4EC80100783E46 /* ColorSample.swift in Sources */,
 				06179CCB2A66CAD300945EAE /* SheetSample.swift in Sources */,
+				06AAB07D2A6A0DA000B2E1D4 /* AlertSheetSample.swift in Sources */,
 				06179C9C2A5F7DE400945EAE /* SafeAreaSample.swift in Sources */,
 				06179CC92A6578C400945EAE /* TransitionSample.swift in Sources */,
 				06179CCF2A6762E600945EAE /* NavigationViewSample.swift in Sources */,
 				06C97F832A57896B00580B63 /* SpacerSample.swift in Sources */,
+				06AAB07F2A6A0DAA00B2E1D4 /* ContextMenuSample.swift in Sources */,
 				06179CC52A61900900945EAE /* AnimationSample.swift in Sources */,
 				0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */,
 				06179CCD2A66E77100945EAE /* PopoverSample.swift in Sources */,
