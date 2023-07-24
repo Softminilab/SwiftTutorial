@@ -8,6 +8,22 @@
 import SwiftUI
 
 struct ContextMenuSample: View {
+    
+    private let menuItems = ContextMenu {
+        Button {
+            // Add this item to a list of favorites.
+        } label: {
+            Label("Add to Favorites", systemImage: "heart")
+        }
+        Button {
+            // Open Maps and center it on this item.
+        } label: {
+            Label("Show in Maps", systemImage: "mappin")
+        }
+    }
+    
+    @State var showContextMenu: Bool = true
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 10.0) {
             Image(systemName: "house.fill")
@@ -19,11 +35,22 @@ struct ContextMenuSample: View {
         .padding()
         .foregroundColor(Color.white)
         .background(Color.green.cornerRadius(20))
-        .contextMenu {
-            Text("Context menu1")
-            Text("Context menu1")
-            Text("Context menu1")
-        }
+        // Method 1
+//        .contextMenu {
+//                    Button {} label: {
+//                        Label("Cut", systemImage: "scissors")
+//                    }
+//
+//                    Button {} label: {
+//                        Label("Past", systemImage: "wallet.pass")
+//                    }
+//
+//                    Button {} label: {
+//                        Label("Delete", systemImage: "trash")
+//                    }
+//                }
+        // Method 2
+        //        .contextMenu(showContextMenu ? menuItems : nil)
     }
 }
 
