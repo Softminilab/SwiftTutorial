@@ -67,7 +67,7 @@ struct ButtonSample: View {
                     .fontWeight(.semibold)
                     .foregroundColor(Color.black)
                     .padding()
-                    .padding(.horizontal, 20)
+                    .padding(.horizontal, 30)
                     .background(
                         LinearGradient(
                             colors: [Color.orange, Color.yellow],
