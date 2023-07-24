@@ -31,6 +31,7 @@ Already have content is below
 * Sheet
 * NavigationView & NavigationLink
 * List
+* confirmationDialog (原 ActionSheets)
 --------------
 
 公众号：RobotPBQ
