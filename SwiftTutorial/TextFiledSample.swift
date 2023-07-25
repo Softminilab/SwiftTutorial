@@ -67,9 +67,10 @@ struct TextFiledSample: View {
                             .foregroundColor(Color.yellow)
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(Color.black)
+                            .background(validata() ? Color.black : Color.gray)
                             .cornerRadius(10)
                     }
+                    .disabled(!validata())
                 }
                 .padding(.horizontal)
                 Spacer()
@@ -80,6 +81,10 @@ struct TextFiledSample: View {
     func submit() {
         print(pwd)
         print(name)
+    }
+    
+    func validata() -> Bool {
+        return name.count > 6 && pwd.count > 6
     }
 }
 
