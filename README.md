@@ -31,7 +31,16 @@ Already have content is below
 * Sheet
 * NavigationView & NavigationLink
 * List
+* Alert
 * confirmationDialog (原 ActionSheets)
+* ContextMenu
+* TextEditor
+* Toggle
+* Picker [❌]
+* ColorPicker [❌]
+* DatePicker [❌]
+* Stepper [❌]
+* Slider [❌]
 --------------
 
 公众号：RobotPBQ

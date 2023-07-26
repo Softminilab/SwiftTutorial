@@ -52,11 +52,11 @@ struct TextFiledSample: View {
                     .textFieldStyle(.roundedBorder)
                     .keyboardType(.numberPad)
                 
-                TextField("Notes", text: $note, axis: .vertical)
-                    .padding(.horizontal)
-                    .textFieldStyle(.roundedBorder)
-                    .lineLimit(3...)
-                    .frame(height: 100)
+//                TextField("Notes", text: $note, axis: .vertical)
+//                    .padding(.horizontal)
+//                    .textFieldStyle(.roundedBorder)
+//                    .lineLimit(3...)
+//                    .frame(height: 100)
                 
                 HStack {
                     Button {
