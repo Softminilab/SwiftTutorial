@@ -39,6 +39,7 @@
 		06F7AB1F2A6EBC4F00B9F011 /* TextFiledSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F7AB1E2A6EBC4F00B9F011 /* TextFiledSample.swift */; };
 		06F7AB212A70030100B9F011 /* TextEditorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F7AB202A70030100B9F011 /* TextEditorSample.swift */; };
 		06F7AB232A70069900B9F011 /* ToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F7AB222A70069900B9F011 /* ToggleSample.swift */; };
+		06F7AB252A714C8900B9F011 /* PickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F7AB242A714C8900B9F011 /* PickerSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		06F7AB1E2A6EBC4F00B9F011 /* TextFiledSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledSample.swift; sourceTree = "<group>"; };
 		06F7AB202A70030100B9F011 /* TextEditorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorSample.swift; sourceTree = "<group>"; };
 		06F7AB222A70069900B9F011 /* ToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSample.swift; sourceTree = "<group>"; };
+		06F7AB242A714C8900B9F011 /* PickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				06F7AB1E2A6EBC4F00B9F011 /* TextFiledSample.swift */,
 				06F7AB202A70030100B9F011 /* TextEditorSample.swift */,
 				06F7AB222A70069900B9F011 /* ToggleSample.swift */,
+				06F7AB242A714C8900B9F011 /* PickerSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -244,6 +247,7 @@
 				06F7AB212A70030100B9F011 /* TextEditorSample.swift in Sources */,
 				0655E9D12A4C74F800783E46 /* SwiftTutorialApp.swift in Sources */,
 				06179CCD2A66E77100945EAE /* PopoverSample.swift in Sources */,
+				06F7AB252A714C8900B9F011 /* PickerSample.swift in Sources */,
 				06179C9E2A5FDFAD00945EAE /* ButtonSample.swift in Sources */,
 				0655E9E52A51B52E00783E46 /* IconsAndImageSample.swift in Sources */,
 				0656BDCF2A5392700095C93E /* FrameSample.swift in Sources */,
