@@ -36,10 +36,10 @@ Already have content is below
 * ContextMenu
 * TextEditor
 * Toggle
-* Picker [❌]
-* ColorPicker [❌]
-* DatePicker [❌]
-* Stepper [❌]
+* Picker
+* ColorPicker
+* DatePicker
+* Stepper
 * Slider [❌]
 --------------
 
