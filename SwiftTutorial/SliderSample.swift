@@ -37,7 +37,7 @@ struct SliderSample: View {
             } onEditingChanged: { editing in
                 isEditing = editing
             }
-            Text("\(value)")
+            Text(String(format: "%.2f", value))
                 .foregroundColor(isEditing ? .red : .blue)
         }
     }
