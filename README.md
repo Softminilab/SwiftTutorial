@@ -40,7 +40,7 @@ Already have content is below
 * ColorPicker
 * DatePicker
 * Stepper
-* Slider [❌]
+* Slider
 --------------
 
 公众号：RobotPBQ
