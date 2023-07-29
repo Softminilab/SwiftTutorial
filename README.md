@@ -43,6 +43,9 @@ Already have content is below
 * Slider
 * TabView
 * DarkMode
+* Appear
+* Gesture
+* ObservableObject & StateObject
 --------------
 
 公众号：RobotPBQ
