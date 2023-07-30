@@ -47,6 +47,9 @@ Already have content is below
 * Gesture
 * ObservableObject & StateObject
 * EnvrinomentObject
+* AppStorage
+* AppStorageSample
+* AsyncImage
 --------------
 
 公众号：RobotPBQ
