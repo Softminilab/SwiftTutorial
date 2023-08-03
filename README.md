@@ -1,7 +1,5 @@
 ## SwiftTutorial
-This is SwiftUI Tutorial
-Already have content is below
-
+This is SwiftUI Tutorial,Based on iOS15 and iOS16
 * Text
 * Shape
 * Color
