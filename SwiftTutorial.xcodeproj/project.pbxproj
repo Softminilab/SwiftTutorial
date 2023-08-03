@@ -18,6 +18,7 @@
 		0610B9C32A76A18500263A2E /* ListSwiperActionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B9C22A76A18500263A2E /* ListSwiperActionSample.swift */; };
 		0610B9C52A77D9FE00263A2E /* FocusStateSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B9C42A77D9FE00263A2E /* FocusStateSample.swift */; };
 		0610B9C72A7936D100263A2E /* NavigationStackSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B9C62A7936D100263A2E /* NavigationStackSample.swift */; };
+		0610B9C92A7AA48F00263A2E /* ResizableSheetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B9C82A7AA48F00263A2E /* ResizableSheetSample.swift */; };
 		06179C9A2A5CD2B300945EAE /* LazyGridSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179C992A5CD2B300945EAE /* LazyGridSample.swift */; };
 		06179C9C2A5F7DE400945EAE /* SafeAreaSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179C9B2A5F7DE400945EAE /* SafeAreaSample.swift */; };
 		06179C9E2A5FDFAD00945EAE /* ButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06179C9D2A5FDFAD00945EAE /* ButtonSample.swift */; };
@@ -76,6 +77,7 @@
 		0610B9C22A76A18500263A2E /* ListSwiperActionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwiperActionSample.swift; sourceTree = "<group>"; };
 		0610B9C42A77D9FE00263A2E /* FocusStateSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateSample.swift; sourceTree = "<group>"; };
 		0610B9C62A7936D100263A2E /* NavigationStackSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSample.swift; sourceTree = "<group>"; };
+		0610B9C82A7AA48F00263A2E /* ResizableSheetSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetSample.swift; sourceTree = "<group>"; };
 		06179C992A5CD2B300945EAE /* LazyGridSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridSample.swift; sourceTree = "<group>"; };
 		06179C9B2A5F7DE400945EAE /* SafeAreaSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSample.swift; sourceTree = "<group>"; };
 		06179C9D2A5FDFAD00945EAE /* ButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSample.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				0610B9C22A76A18500263A2E /* ListSwiperActionSample.swift */,
 				0610B9C42A77D9FE00263A2E /* FocusStateSample.swift */,
 				0610B9C62A7936D100263A2E /* NavigationStackSample.swift */,
+				0610B9C82A7AA48F00263A2E /* ResizableSheetSample.swift */,
 				0655E9D42A4C74FA00783E46 /* Assets.xcassets */,
 				0655E9D62A4C74FA00783E46 /* Preview Content */,
 			);
@@ -337,6 +340,7 @@
 				0610B9C52A77D9FE00263A2E /* FocusStateSample.swift in Sources */,
 				06179CCD2A66E77100945EAE /* PopoverSample.swift in Sources */,
 				06F7AB252A714C8900B9F011 /* PickerSample.swift in Sources */,
+				0610B9C92A7AA48F00263A2E /* ResizableSheetSample.swift in Sources */,
 				06179C9E2A5FDFAD00945EAE /* ButtonSample.swift in Sources */,
 				06F7AB372A74B95800B9F011 /* GestureSample.swift in Sources */,
 				06F7AB352A740BD500B9F011 /* OnAppearSample.swift in Sources */,
