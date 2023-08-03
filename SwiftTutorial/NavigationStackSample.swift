@@ -39,6 +39,12 @@ struct NavigationStackSample: View {
                     }
                 })
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbarTitleMenu(content: {
+                Text("dd")
+                Text("dd")
+                Text("dd")
+            })
             .navigationDestination(for: String.self, destination: { country in
                 CountryView(country: country)
             })

@@ -1,11 +1,4 @@
 ## SwiftTutorial
-
-![](icon.png) 
-
-
-
------
-
 This is SwiftUI Tutorial
 Already have content is below
 
@@ -56,7 +49,8 @@ Already have content is below
 * ListSwiperAction
 * FocusState
 * NavigationStack
-* resizable sheet
+* Resizable sheet
+* SafeAreaInsets
 --------------
 
 公众号：RobotPBQ
